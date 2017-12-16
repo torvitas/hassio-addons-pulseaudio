@@ -1,2 +1,0 @@
-#!/bin/bash
-docker build --build-arg BUILD_FROM=resin/armv7hf-debian:stretch -t $IMAGE_NAME .

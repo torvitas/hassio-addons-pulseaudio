@@ -1,5 +1,4 @@
-ARG BUILD_FROM
-FROM $BUILD_FROM
+FROM "resin/armv7hf-debian:stretch"
 
 ENV DEBIAN_FRONTEND noninteractive
 
