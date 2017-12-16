@@ -2,6 +2,7 @@ version: '2'
 
 services:
   pulseaudio:
+    image: "torvitas/armhf-hassio-pulseaudio:10-1"
     build:
         context: ./pulseaudio/
         args:
