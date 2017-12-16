@@ -9,9 +9,7 @@
   "options": {},
   "schema": {},
   "image": "torvitas/{arch}-hassio-pulseaudio",
-  "devices": {
-      "/dev/snd": "/dev/snd"
-  },
+  "devices":["/dev/snd:/dev/snd:rwm"],
   "host_dbus" : "true",
   "ports": {
     "4713/tcp": 4713
