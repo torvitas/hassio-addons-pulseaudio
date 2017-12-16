@@ -1,0 +1,23 @@
+version: '2'
+
+services:
+  pulseaudio:
+    build:
+        context: ./pulseaudio/
+        args:
+            BUILD_FROM: "resin/armv7hf-debian:stretch"
+    read_only: true
+    hostname: localhost
+    networks:
+      - isolated
+    ports:
+      - "4713:4713"
+    devices:
+      - /dev/snd
+    volumes:
+      - /var/run/dbus:/var/run/dbus
+
+networks:
+  isolated:
+    external:
+      name: isolated

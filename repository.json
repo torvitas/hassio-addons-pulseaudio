@@ -1,0 +1,5 @@
+{
+  "name": "Pulseaudio Network Sink",
+  "url": "https://github.com/torvitas/hassio-addons-pulseaudio",
+  "maintainer": "Sascha Marcel Schmidt <mail@saschaschmidt.net>"
+}
