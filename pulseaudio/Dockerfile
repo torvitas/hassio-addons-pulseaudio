@@ -11,7 +11,7 @@ ENV HOME /home/$USER
 RUN [ "cross-build-start" ]
 
 RUN apt-get update \
-    && apt-get install -yq pulseaudio pulseaudio-module-zeroconf alsa-utils \
+    && apt-get install -yq pulseaudio \
     && rm -rf /var/lib/apt/lists
 
 COPY [ "default.pa", "client.conf", "daemon.conf", "/etc/pulse/" ]

@@ -1,6 +1,6 @@
 {
   "name": "pulseaudio",
-  "version": "10-2",
+  "version": "10-3",
   "slug": "pulseaudio",
   "description": "PulseAudio",
   "url": "https://github.com/torvitas/pulseaudio/tree/master/pulseaudio",
