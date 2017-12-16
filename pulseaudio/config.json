@@ -1,0 +1,15 @@
+{
+  "name": "pulseaudio",
+  "version": "2.29.22-12",
+  "slug": "pulseaudio",
+  "description": "PulseAudio",
+  "url": "https://github.com/torvitas/pulseaudio/tree/master/pulseaudio",
+  "startup": "before",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "image": "torvitas/{arch}-hassio-pulseaudio",
+  "ports": {
+    "4713/tcp": 4713
+  }
+}

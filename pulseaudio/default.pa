@@ -1,0 +1,4 @@
+load-module module-alsa-sink device=hw:0,0
+load-module module-native-protocol-unix
+load-module module-native-protocol-tcp auth-ip-acl=127.0.0.0/8;172.0.0.0/8 auth-anonymous=1
+load-module module-zeroconf-publish
