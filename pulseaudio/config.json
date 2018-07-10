@@ -12,9 +12,6 @@
   "image": "torvitas/{arch}-hassio-pulseaudio",
   "devices":["/dev/snd:/dev/snd:rwm"],
   "host_dbus" : "true",
-  "environment": {
-      "ALSA_OUTPUT": "0,0"
-  },
   "ports": {
     "4713/tcp": 4713
   }
